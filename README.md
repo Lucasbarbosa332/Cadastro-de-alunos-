@@ -8,7 +8,9 @@ Carômetro é um aplicativo para desktop (Windows, Linux ou MAC) de repositório
 
 # Pré requisitos
 1.Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação, selecione todos os recursos conforme indicado na imagem.
- <img width=60% src=""></img>
+
+ <img width=60% src="https://github.com/Lucasbarbosa332/Cadastro-de-alunos-/blob/main/Cronometo/java%20and%20Mysql/assets/openjdk.png?raw=true"></img>
+
 2.Ter um banco de dados local baseado no MySQL 8 ou MariaDB compatível, no exemplo usei o XAMPP que pode ser obtido no link indicado.
 
 #Instalação do banco
