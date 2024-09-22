@@ -9,3 +9,34 @@ Carômetro é um aplicativo para desktop (Windows, Linux ou MAC) de repositório
 
 2.Ter um banco de dados local baseado no MySQL 8 ou MariaDB compatível, no exemplo usei o XAMPP que pode ser obtido no link indicado.
 
+#Instalação do banco
+
+1.Iniciar os serviços Apache e MySQL no XAMPP, conforme indicado na imagem.
+
+2.No navegador de internet digite: localhost/dashboard e selecione no menu: phpMyAdmin conforme indicado na imagem.
+
+3.Crie um novo banco de dados de nome dbcarometro (sem usar acentuação) conforme indicado na imagem.
+
+4.Na aba SQL, copie e cole o código abaixo e execute. (Passos 1,2 e 3 indicados na imagem)
+      
+       CREATE TABLE alunos (ra int PRIMARY KEY AUTO_INCREMENT,nome varchar(30) NOT NULL,foto LONGBLOB NOT NULL);
+
+# Instalação do aplicativo
+1.Em Releases faça o download do arquivo carometro.jar
+
+2.Execute e verifique no rodapé o ícone que representa o banco de dados conectado. Se estiver com erro (conforme indicado na figura), verifique o XAMPP e revise novamente os passos 1 a 4 da instalação do banco.
+
+3.Se tudo estiver OK ( 1 ) você pode iniciar gerando uma listagem dos alunos cadastrados ( 2 ) ou pesquisar um aluno pelo RA ou Nome ( 3 ), neste caso o aplicativo libera os botões e recursos de acordo com o resultado da pesquisa, por exemplo, se não tiver um aluno cadastrado, ele libera os botões para carregar foto e adicionar e se existir um aluno cadastrado, ele traz todas as informações e libera os botões para editar e excluir.
+
+
+
+Tecnologias que são abordadas neste Projeto :
+
+Criação de banco de dados e tabelas no MySQL
+CRUD (Criar, Ler, Atualizar e Excluir)
+IDE Eclipse
+Java SE
+Construtor de janelas
+JDBC (conectividade de banco de dados Java)
+Validação de dados
+Uso da biblioteca iTextpdf para gerar listagem de alunos com foto
