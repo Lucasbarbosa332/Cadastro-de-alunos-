@@ -6,3 +6,6 @@ Carômetro é um aplicativo para desktop (Windows, Linux ou MAC) de repositório
 
 # Pré requisitos
 1.Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação, selecione todos os recursos conforme indicado na imagem.
+
+Ter um banco de dados local baseado no MySQL 8 ou MariaDB compatível, no exemplo usei o XAMPP que pode ser obtido no link indicado.
+Baixar XAMPP
