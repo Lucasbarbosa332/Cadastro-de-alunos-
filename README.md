@@ -33,10 +33,10 @@ Carômetro é um aplicativo para desktop (Windows, Linux ou MAC) de repositório
 Tecnologias que são abordadas neste Projeto :
 
 * Criação de banco de dados e tabelas no MySQL
-CRUD (Criar, Ler, Atualizar e Excluir)
-IDE Eclipse
-Java SE
-Construtor de janelas
-JDBC (conectividade de banco de dados Java)
-Validação de dados
-Uso da biblioteca iTextpdf para gerar listagem de alunos com foto
+* CRUD (Criar, Ler, Atualizar e Excluir)
+* IDE Eclipse
+* Java SE
+* Construtor de janelas
+* JDBC (conectividade de banco de dados Java)
+* Validação de dados
+* Uso da biblioteca iTextpdf para gerar listagem de alunos com foto
